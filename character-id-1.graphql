@@ -1,0 +1,41 @@
+query GetCharacterById {
+  # Fetch character with ID 1
+  character1: character(id: 1) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+  
+  # Fetch character with ID 2
+  character2: character(id: 2) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+  
+  # Fetch character with ID 3
+  character3: character(id: 3) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+  
+  # Fetch character with ID 4
+  character4: character(id: 4) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
